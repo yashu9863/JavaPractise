@@ -66,7 +66,6 @@ public class AuthorController {
 		return authors;
 	}
 	
-	
 	@PutMapping("/{id}") 
 	public Authors updateById(@RequestBody Authors author) throws Exception {
 		Authors authors = authorService.updateAuotherbyId(author);
